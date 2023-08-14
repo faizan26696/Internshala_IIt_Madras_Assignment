@@ -1,0 +1,71 @@
+.ChartContainer{
+    background: #fbfcf8;
+    margin-left: 2rem;
+    border-radius: 1.5rem;
+    width: 280px;
+    line-height: 0px;
+    height: 11rem;
+}
+.ChartHeading{
+    margin-left: 2rem;
+    line-height: 0;
+    font-size: 14px;
+    font-weight: 550;
+}
+.ChartHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 0;
+    font-size: 16px;
+    gap: 4rem;
+}
+.ChartIcon{
+    background:#338FFF;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 6px;
+}
+.ChartInfo{
+    text-align: center;
+    font-weight: 450;
+    line-height: 1px;
+}
+.Text {
+
+    font-weight: 500;
+    margin-top: 18px;
+    /* padding-bottom: 1rem; */
+    padding-bottom: 0rem;
+}
+.ChartRange{
+  padding: 0.5rem;
+ 
+}
+.smText{
+    font-size: 12px;
+    font-weight: 350;
+    color: grey;
+}
+.NumRange{
+    display: flex;
+    justify-content: spa;
+    /* padding: 2rem; */
+    gap: 1rem;
+    /* margin: 0; */
+    gap: 3rem;
+    margin-left: 2.5rem;
+}
+.NumRange h5{
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 0px;
+    color: grey;
+}
+.RangeLine{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 33px;
+    /* padding-right: 5px; */
+    gap: 0.5rem;
+}

@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,200;0,400;0,500;0,600;1,200&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Container {
+    margin: 0;
+    padding: 0;
+    font-family:  Nunito;
+
+}
+/* ---------------------------Header_Section------------------------- */
+.BgImg {
+    background-image: url("/src/assets/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:891px;
+    width: 400px;
+    margin: 1rem;
+    margin-right: 0;
+    padding: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0.3rem;
+}
+.PlusSymbol{
+    color: #f8f9f5;
+    font-size: 22px;
+}
+.dots{
+    color: #f8f9f5;
+    font-size: 1.6rem;
+    font-weight: "800"
+}
+.dash {
+    height: 0.4rem;
+    width: 1rem;
+    font-weight: 800;
+    background: #f8f9f5;
+    border-radius: 10px;
+}
+.SwitchBtn{
+    color: #f8f9f5;
+    display: flex;
+    align-items: center;
+}
+.SwitchBtn span{
+    font-size: 14px;
+}
+
+
+/* ------------------------------Middle_Section--------------------- */
+
+.middleSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f8f9f5;
+    line-height:1.3px;
+    padding-top:1.8rem
+}
+.TextSection{
+    display: flex;
+    flex-direction:column;
+    text-align:start;
+    padding-bottom: 7px;
+}
+.TextSection h2 {
+  font-size:20px;
+  padding-right:3px;
+}
+.TimeSection{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    gap:7px
+}
+
+/* ---------------------------------Bottom_Section----------------------- */
+.bottomSection{
+    color: #f8f9f5;
+    line-height:2px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+}
+
+.TempShow{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.TempShow h1{
+  font-size:3.8rem;
+}
+.WeatherShow{
+    font-size:1.2rem;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    justify-content:center;
+    margin-right:1rem;
+}
